@@ -74,13 +74,13 @@ const Feedback = ({navigation}) => {
                             borderRadius: 12
                         }}
                     />
-                    <TouchableOpacity onPress={() => Linking.openURL("mailto:lavensoftincs@gmail.com")}>
+                    <TouchableOpacity onPress={() => Linking.openURL("mailto:contact@nhattran.dev")}>
                         <Text style={{
                             marginTop: 12, 
                             marginHorizontal: 24,
                             color: "#a0a0a0",
                             fontSize: 12
-                        }}>Liên hệ chi tiết qua mail: lavensoftincs@gmail.com</Text>
+                        }}>Liên hệ chi tiết qua mail: contact@nhattran.dev</Text>
                     </TouchableOpacity>
                     <LButton style={{marginTop: 24}} onPress={handleSendFeedback}>Gửi</LButton>
                 </> :

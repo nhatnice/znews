@@ -31,32 +31,26 @@ const About = ({navigation}) => {
             }}
         >
             <SectionTitle style={{paddingBottom: 0}} subtitle="Thông tin liên hệ"/>
-            <TouchableOpacity onPress={() => Linking.openURL("mailto:lavensoftincs@gmail.com")}>
+            <TouchableOpacity onPress={() => Linking.openURL("mailto:contact@nhattran.dev")}>
                 <Text style={{
                     marginLeft: 24, 
                     marginTop: 20
-                }}>Email: lavensoftincs@gmail.com</Text>
+                }}>Email: contact@nhattran.dev</Text>
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => Linking.openURL("tel:+84938415997")}>
+            <TouchableOpacity onPress={() => Linking.openURL("https://nhattran.dev")}>
                 <Text style={{
                     marginLeft: 24, 
                     marginTop: 20
-                }}>Số điện thoại: +84 938 415 997</Text>
+                }}>Website: https://nhattran.dev</Text>
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => Linking.openURL("https://www.lavenes.com/")}>
-                <Text style={{
-                    marginLeft: 24, 
-                    marginTop: 20
-                }}>Website: https://www.lavenes.com/</Text>
-            </TouchableOpacity>
-            <Text style={{marginLeft: 24, marginTop: 20}}>Địa chỉ liên hệ: 71 Tran Hung Dao, Cau Ong Lanh Ward, District 1, HCMC</Text>
+            <Text style={{marginLeft: 24, marginTop: 20}}>Địa chỉ liên hệ: Vietnam</Text>
 
             <SectionTitle style={{marginTop: 48, paddingBottom: 0}} subtitle="Thông tin ứng dụng"/>
-            <Text style={{marginLeft: 24, marginTop: 20}}>Nhà phát triển: Lavenes</Text>
+            <Text style={{marginLeft: 24, marginTop: 20}}>Nhà phát triển: NHΛT TRΛN</Text>
             <Text style={{marginLeft: 24, marginTop: 20}}>Phiên bản ứng dụng: 1.1.9</Text>
             
             <SectionTitle style={{marginTop: 48, paddingBottom: 0}} subtitle="Điều khoản và Chính sách"/>
-            <TouchableOpacity onPress={() => Linking.openURL("https://znews.lavenes.com/privacy/")}>
+            <TouchableOpacity onPress={() => Linking.openURL("https://github.com/nhatnice/znews/blob/main/privacy-policy.html")}>
                 <Text style={{
                     marginLeft: 24, 
                     marginTop: 20,
